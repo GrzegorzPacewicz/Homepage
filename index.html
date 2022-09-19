@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/tablecontainer.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Grzegorz Pacewicz - o mnie i moje rekordy w kostce Rubika</title>
+</head>
+
+<body class="body js-body">
+
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__list">
+                <a class="navigation__link" href="#Home">Home</a>
+            </li>
+            <li class="navigation__list">
+                <a class="navigation__link" href="#O-mnie">O mnie</a>
+            </li>
+            <li class="navigation__list">
+                <a class="navigation__link" href="#Moje-osiagniecia">Moje osiągnięcia</a>
+            </li>
+            <li class="navigation__list">
+                <a class="navigation__link" href="#Przykladowa-intereakcja">Przykładowa interakcja</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div> <img class="image" id="Home" width="260"
+                src="https://live.staticflickr.com/65535/51160194421_e19fff8928_c.jpg" alt="Grzegorz Pacewicz">
+        </div>
+
+        <article>
+            <h1 id="O-mnie" class="article__header">Grzegorz Pacewicz</h1>
+            <h2 class="article__subHeader">Parę słów o mnie</h2>
+
+            <p class="article__text">Jestem <strong>speedcuberem</strong>. Znaczy to, że po prostu bardzo lubię układać
+                <strong>kostkę Rubika</strong>. A w zasadzie nie kostkę, a kostki, ponieważ jest wiele ich odmian.
+                Podobnie jest wiele konkurencji, w których można się zmierzyć w układaniu. Moimi ulubionymi konkrencjami
+                są:
+            </p>
+            <ul class="article__unorderedList">
+                <li class="article__unorderedList--item">układanie zwykłej kostki 3x3 na czas; </li>
+                <li class="article__unorderedList--item">układanie kostki 3x3 z zamkniętymi oczami;</li>
+                <li class="article__unorderedList--item">układanie kostki 4x4 z zamkniętymi oczami;</li>
+                <li class="article__unorderedList--item">układanie kostki 5x5 z zamkniętymi oczami.</li>
+            </ul>
+
+            <h2 id="Moje-osiagniecia" class="article__subHeader">Moje osiągnięcia</h2>
+            <p class="article__text">
+                Na poważnie speedcubingiem zajmuję się od 8 lat. W tym czasie znacznie poprawiłem swoje
+                umiejętności,
+                schodząc z
+                czasami od układania w kilka minut, do układania poniżej 15 sekund. Moje rekordy zebrałem w tabeli.
+            </p>
+            <div class="tableContainer">
+                <table class="table">
+                    <caption class="table__caption">Moje rekordy</caption>
+                    <tr class="table__row">
+                        <th class="table__cell--header" scope="col">Konkurencja</th>
+                        <th class="table__cell--header" scope="col">Singiel</th>
+                        <th class="table__cell--header" scope="col">Mo3/Ao5</th>
+                        <th class="table__cell--header" scope="col">Globalnie</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header" scope="row">Kostka 3x3</th>
+                        <td class="table__cell">9.80</td>
+                        <td class="table__cell">12.99</td>
+                        <td class="table__cell">15.30</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header" scope="row">Kostka z zamkniętymi oczami</th>
+                        <td class="table__cell">37.80</td>
+                        <td class="table__cell">49.76</td>
+                        <td class="table__cell">1:10</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header" scope="row">Kostka 4x4 zamkniętymi oczami</th>
+                        <td class="table__cell">5:17.26</td>
+                        <td class="table__cell">6:48.78</td>
+                        <td class="table__cell">7:30</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header" scope="row">Kostka 5x5 zamkniętymi oczami</th>
+                        <td class="table__cell">10:31.98</td>
+                        <td class="table__cell">15:46.81</td>
+                        <td class="table__cell">17:00</td>
+                    </tr>
+                </table>
+            </div>
+
+        </article>
+
+        <h2 id="Przykladowa-intereakcja" class="article__subHeader">Przykładowa interakcja</h2>
+
+        <button class="button js-button">Włącz <span class="js-themeName">ciemny</span> motyw</button>
+
+    </main>
+
+    <footer class="footer">&copy; Wszelkie prawa zastrzeżone 2022</footer>
+
+</body>
+
+</html>
