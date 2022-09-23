@@ -1,0 +1,13 @@
+.interaction__header {
+    margin: 40px auto 10px;
+    text-align: center;
+}
+
+.interaction__button {
+    margin: 30px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #9d5050;
+    color: white;
+}
