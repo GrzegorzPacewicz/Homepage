@@ -14,11 +14,11 @@
     line-height: 150%;
 }
 
-.article__unorderedList {
+.article__list {
     list-style-type: square;
 }
 
-.article__unorderedList--item {
+.article__listItem {
     margin: 5px 10px 5px;
     text-align: left;
 }
